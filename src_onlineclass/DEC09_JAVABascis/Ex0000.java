@@ -1,4 +1,4 @@
-package src_onlineclass.DEC09_Bascis;
+package src_onlineclass.DEC09_JAVABascis;
 
 public class Ex0000 {
 
