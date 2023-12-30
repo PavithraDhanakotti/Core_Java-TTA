@@ -2,18 +2,26 @@ package src_onlineclass.DEC16_OPERATORSandCASTING;
 
 public class Ex0020 {
     public static void main(String[] args) {
-//        Interview Question
-        int a= 45;
-        int b= 10;
-        String name= "Pavithra";
 
-        System.out.println(a+name);
-        System.out.println(name+a);
-        System.out.println(a+b+name);
-        // Go from left to right (For Above COD)
+        // Relational Operator
+        // <, >, <=, >=, == !=
+        int age = 30;
+        int age1=34;
+        boolean result = age1>age;
+        System.out.println(result);
 
-        // For Below line of Code, it is concatenation rather than addition as of the first variable is a string
-        System.out.println(name+a+b);
+        int a=10;
+        int b=10;
+        boolean c =(a==b);
+        boolean c1 =(a<b);
+        boolean c2 =(a>b);
+        boolean c3 =(a>=b);
+        boolean c4 =(a<=b);
+        System.out.println(c);
+        System.out.println(c1);
+        System.out.println(c2);
+        System.out.println(c3);
+        System.out.println(c4);
 
     }
 }
