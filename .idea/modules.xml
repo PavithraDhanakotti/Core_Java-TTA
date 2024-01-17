@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AT_Learning.iml" filepath="$PROJECT_DIR$/AT_Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core_Java_TTA.iml" filepath="$PROJECT_DIR$/Core_Java_TTA.iml" />
     </modules>
   </component>
 </project>
