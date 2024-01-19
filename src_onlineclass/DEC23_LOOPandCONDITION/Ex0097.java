@@ -5,11 +5,11 @@ public class Ex0097 {
         // while -> INIT > Condition > Body > Increment
         // Do while -> Init > Body > Condition > Increment
 
-        int a= 1;
+        int a= 1; //Init
         do{
-            System.out.println(a);
+            System.out.println(a); // Body
             a++;
-        } while (a <= 10);
+        } while (a <= 10); //Condition
 
 //        int b =10;
 //        while(b>10){
