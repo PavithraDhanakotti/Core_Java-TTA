@@ -8,12 +8,22 @@ public class Ex0094 {
         // Factorial Program
         // 1! -> 1
         // 2! ->2*1
+        // 3! -> 3*2*1
+        // 5! -> 5*4*3*2*1 = 120
+        // user input -> 5
+        // Output = 120
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number");
         int num=sc.nextInt();
 
         long fact=1;
+        // 5  -> i = 1 to 5 ->  fact = fact * i , i++
+        // A -> int i = 1;
+        // B -> i <=number or i < =5
+        // C -> i++
+        // D -> fact = fact*i
+
 //        int i=1;
 //        while(i<= num){
 //            fact = fact*i;

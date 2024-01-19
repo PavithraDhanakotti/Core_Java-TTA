@@ -9,5 +9,10 @@ public class Ex0086 {
             }
             System.out.println("Value of 2  " +i);
         }
+
+        //        int a = 10;
+//        if (a == 10) {
+//            continue;
+//        }
     }
 }

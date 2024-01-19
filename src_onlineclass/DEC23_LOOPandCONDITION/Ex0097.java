@@ -8,7 +8,7 @@ public class Ex0097 {
         int a= 1; //Init
         do{
             System.out.println(a); // Body
-            a++;
+            a++; // Increment
         } while (a <= 10); //Condition
 
 //        int b =10;

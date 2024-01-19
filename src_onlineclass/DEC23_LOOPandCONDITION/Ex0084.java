@@ -5,5 +5,12 @@ public class Ex0084 {
         //int a = 10;
         //if ( a == 10 ) { break;
         //}
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+            if(i%2 == 0){
+                break;
+            }
+        }
     }
 }

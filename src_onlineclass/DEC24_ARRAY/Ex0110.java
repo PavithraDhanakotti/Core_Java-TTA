@@ -5,7 +5,7 @@ public class Ex0110 {
 
 
         // 1D
-        int[] l = {1,2,3};
+        int[] l = {1,2,3}; //-> Hori
 
         // 2D
         int[][] arr = new int [3][3];
