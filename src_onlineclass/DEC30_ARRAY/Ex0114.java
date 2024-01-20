@@ -1,4 +1,4 @@
-package src_onlineclass.DEC30;
+package src_onlineclass.DEC30_ARRAY;
 
 public class Ex0114 {
     public static void main(String[] args) {
@@ -14,10 +14,20 @@ public class Ex0114 {
         int d = sum (3,4);
         System.out.println(d);
 
+
+        float da = sum(3.5f,4.5f);
+        System.out.println(d);
+
+
     }
 
 
     public static int sum(int a, int b){
         return a +b;
     }
+
+    public static float sum(float pramod,float shivani){
+        return pramod+shivani;
+    }
+
 }

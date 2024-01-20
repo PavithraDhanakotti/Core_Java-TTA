@@ -1,4 +1,4 @@
-package src_onlineclass.DEC30;
+package src_onlineclass.DEC30_ARRAY;
 
 import java.util.Scanner;
 

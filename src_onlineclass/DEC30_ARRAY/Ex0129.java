@@ -1,4 +1,4 @@
-package src_onlineclass.DEC30;
+package src_onlineclass.DEC30_ARRAY;
 
 public class Ex0129 {
     public static void main(String[] args) {

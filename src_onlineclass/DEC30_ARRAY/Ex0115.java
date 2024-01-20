@@ -1,5 +1,5 @@
 package
-        src_onlineclass.DEC30;
+        src_onlineclass.DEC30_ARRAY;
 
 public class Ex0115 {
     public static void main(String[] args) {

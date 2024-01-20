@@ -1,26 +1,21 @@
-package src_onlineclass.DEC30;
+package src_onlineclass.DEC30_ARRAY;
 
 import java.util.Scanner;
 
-public class Ex0121 {
+public class Ex0122 {
     public static void main(String[] args) {
-
-//        int a =10;
-//        int b=23;
-
+//Interview
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Value for A");
-        int a = sc.nextInt();
+        int a = sc.nextInt(); // 10
         System.out.println("Enter Value for B");
-        int b = sc.nextInt();
+        int b = sc.nextInt(); //9
         System.out.println(" The value of A and B is " + a + " " + b);
 
-        int temp = a;
-        a =b;
-        b = temp;
-
+        a = a+b; // 10+9 = 19
+        b= a-b;  // 19-9 =10
+        a = a-b; // 19-10  9
         System.out.println(" Swap value of A and B is " + a + " " + b);
-
 
     }
 }
