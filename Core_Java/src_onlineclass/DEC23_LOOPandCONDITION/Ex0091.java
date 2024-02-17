@@ -7,7 +7,7 @@ public class Ex0091 {
 //            System.out.println(i);
 //        }
 //        System.out.println(i);
-    }
+
 
         int i=10;
         while(i>=10){

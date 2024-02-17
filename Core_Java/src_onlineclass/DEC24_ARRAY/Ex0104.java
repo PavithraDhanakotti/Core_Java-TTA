@@ -11,7 +11,7 @@ public class Ex0104 {
         char[] c_array = {'A','B','D'};
         String[] names = {"Pramod","Amit","Alok"};
 
-        System.out.println(int_array.length);
+        System.out.println(int_arr.length);
         System.out.println(names.length);
 
         for (int i = 0; i < names.length; i++) {
