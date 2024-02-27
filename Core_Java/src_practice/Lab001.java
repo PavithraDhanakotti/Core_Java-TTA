@@ -22,12 +22,14 @@ public class Lab001 {
     }
 
 // PARAMETER CONSTRUCTOR --> Change values
-Lab001(String valuefromObjectRef){
+Lab001(String valuefromObjectRef, String getGender){
        this.Name=valuefromObjectRef;
-    System.out.println("I am also Called!");
+       this.Gender=getGender;
+   // System.out.println("I am also Called!");
 }
 
 void print(){
-    System.out.println(Name);
+    System.out.println(this.Name);
+    //System.out.println(Name);
 }
 }

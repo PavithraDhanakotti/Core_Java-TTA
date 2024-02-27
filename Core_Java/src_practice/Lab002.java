@@ -5,7 +5,9 @@ public class Lab002 {
         Lab001 lab = new Lab001() ;
         lab.print();
 
-        Lab001 lab2 = new Lab001("Prapthi");
+        Lab001 lab2 = new Lab001("Prapthi", "Female");
         lab2.print();
+
+
     }
 }
