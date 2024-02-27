@@ -30,6 +30,7 @@ Lab001(String valuefromObjectRef, String getGender){
 
 void print(){
     System.out.println(this.Name);
+    System.out.println(this.Gender);
     //System.out.println(Name);
 }
 }
