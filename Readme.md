@@ -1,5 +1,5 @@
 # Test Automation Learnings'
-This Repository contains my learning from the class of The Testing Academy, where I'll be showcasing my practice coding and homework part from the class.
+This Repository contains my learning from the class of The Testing Academy, where I'll be showcasing my random practice coding and homework part from the class.
 
 ## Topics:
 1. Software Testing (Manual)
