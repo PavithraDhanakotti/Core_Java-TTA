@@ -35,6 +35,9 @@ public class Lab0030 {
             System.out.println(e.getKey() + "  =  "+ e.getValue());
         }
 
+        //Other way to execute entryset
+        set a = map1.entrySet();
+        System.out.println(a);
 
 
     }

@@ -1,6 +1,6 @@
 package Core_Java.src_practice;
 
-public class Lab009 extends sub {
+public class Lab0009 extends sub {
     public static void main(String[] args) {
         sub lab = new sub();
         lab.print1();

@@ -1,6 +1,6 @@
 package Core_Java.src_practice;
 
-public class Lab003 {
+public class Lab0003 {
 
     void ParentHouse(){
         System.out.println("Parents House");

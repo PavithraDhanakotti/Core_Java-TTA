@@ -1,6 +1,6 @@
 package Core_Java.src_practice;
 
-public class Lab004_Child extends Lab003{
+public class Lab0004_Child extends Lab0003 {
 String ChildHouse;
 String ChildCar;
 int ChildMoney;
@@ -15,7 +15,7 @@ int ChildMoney;
     void ChildMoney(){
         System.out.println("Chile Money");
     }
-Lab004_Child(String C_House, String C_Car, int C_Money){
+Lab0004_Child(String C_House, String C_Car, int C_Money){
         this.ChildHouse = C_House;
         this.ChildCar = C_Car;
         this.ChildMoney = C_Money;
@@ -29,7 +29,7 @@ void child_inheri(){
 
     }
     public static void main(String[] args) {
-        Lab004_Child lab = new Lab004_Child("2BHK","Lambo",1234);
+        Lab0004_Child lab = new Lab0004_Child("2BHK","Lambo",1234);
         lab.ChildCar();
         System.out.println(lab);
         System.out.println("______________________");

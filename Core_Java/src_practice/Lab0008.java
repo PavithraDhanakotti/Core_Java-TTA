@@ -1,6 +1,6 @@
 package Core_Java.src_practice;
 
-public class Lab008 {
+public class Lab0008 {
 
     // Static Keyword
     // Static and Non-Static variable
