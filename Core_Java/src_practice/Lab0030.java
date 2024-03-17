@@ -2,6 +2,7 @@ package Core_Java.src_practice;
 
 import java.util.Map;
 import java.util.HashMap;
+import java.util.Set;
 
 
 public class Lab0030 {
@@ -36,7 +37,7 @@ public class Lab0030 {
         }
 
         //Other way to execute entryset
-        set a = map1.entrySet();
+        Set a = map1.entrySet();
         System.out.println(a);
 
 
