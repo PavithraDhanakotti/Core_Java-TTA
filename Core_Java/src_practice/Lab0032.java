@@ -4,6 +4,7 @@ package Core_Java.src_practice;
 import java.util.LinkedHashMap;
 import java.util.TreeMap;
 import java.util.Map;
+import java.util.Hashtable;
 
 
 public class Lab0032 {
@@ -25,5 +26,20 @@ public class Lab0032 {
         m.put(1,"Hello");
         m.put("Hi",465);
         System.out.println(m);
+
+        /*
+         * HashTable
+         Never accepts null value
+        Thread Safe
+         Synchronised
+         *
+         */
+
+
+        Map h =new Hashtable();
+        h.put("Pavithra","PAvi");
+        h.put(null,"hello");
+        System.out.println(h);
+
     }
 }
