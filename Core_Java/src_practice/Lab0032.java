@@ -9,8 +9,21 @@ import java.util.Map;
 public class Lab0032 {
     public static void main(String[] args) {
         Map a= new TreeMap<>();
-//        Map a = new LinkedHashMap<>();
         a.put("Name",123);
+        a.put("Name",145); // Updating to a new value
+        a.put("Age",12);
+        a.put("123",895);
         System.out.println(a);
+
+//        a.put(123,123); this will not give red-underline error but while executing it will as it is a different datatype
+
+        // But not in case of LinkedHashmap
+        //Whatever the user enters it will display in the same order but in case of Tree Map it will arrange in a order.
+        Map m = new LinkedHashMap();
+        m.put("Name", "Pavithra");
+        m.put(1,2);
+        m.put(1,"Hello");
+        m.put("Hi",465);
+        System.out.println(m);
     }
 }
